@@ -1,6 +1,6 @@
 function Discover(){
     return(
-        <div>
+        <div className='container'>
             <h1>Discover Page</h1>
         </div>
     )

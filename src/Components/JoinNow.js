@@ -7,6 +7,7 @@ import './join.css'
 function JoinNow(){
     return (
 			<div className='joincontainer'>
+				<div className='formContainer'>
 				<h1>Sign Up</h1>
 				<form>
 					<TextField id="filled-basic" label="First Name"></TextField>
@@ -16,6 +17,7 @@ function JoinNow(){
 					<TextField id="filled-basic" label="Confirm Password" sx={{marginTop:'1em'}}></TextField>
 					<Button variant="contained" sx={{marginTop:'1em'}}>Sign Up!</Button>
 				</form>
+				</div>
 			</div>
 		);
 }

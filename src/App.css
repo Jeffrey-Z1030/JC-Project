@@ -46,4 +46,22 @@ header{
   height:10px;
 }
 
+.darkMode {
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* add this line */
+}
+
+.darkModeToggle {
+  display: flex;
+  align-items: center;
+}
+
+.names {
+  display: flex;
+  align-items: center;
+}
+
+
 
